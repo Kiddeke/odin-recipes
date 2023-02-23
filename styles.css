@@ -1,5 +1,25 @@
+.main {
+  color: white;
+}
+.secondary {
+  color: gray;
+}
+div {
+  color: white;
+  background-color: black;
+}
+
+p {
+  color: lightblue;
+}
+
 * {
-    color: purple;
+  background-color: black;
+}
+ul {
+  color: white;
+}
+a {
+  color: purple;
 }
 /* adding my first comment to this css file */
-
