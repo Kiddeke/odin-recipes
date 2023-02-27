@@ -1,31 +1,30 @@
 * {
-  background-color: darkgray;
-}
-h1 {
+  background-color: black;
   color: white;
 }
 
-h2 {
+.main {
+  background-color: black;
   color: white;
+  text-align: center;
 }
-h3 {
-  color: white;
-}
+
 .secondary {
-  color: gray;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
+
 div {
   color: white;
 }
 
-p {
-  color: lightblue;
+ul {
+  display: inline-block;
+  text-align: left;
 }
 
-ul {
-  color: white;
-}
 a {
-  color: red;
+  color: rgb(247, 250, 168);
 }
 /* adding my first comment to this css file */
