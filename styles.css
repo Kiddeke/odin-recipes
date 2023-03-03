@@ -36,4 +36,9 @@ ul {
 a {
   color: rgb(247, 250, 168);
 }
+
+img {
+  height: 700px;
+  width: auto;
+}
 /* adding my first comment to this css file */
