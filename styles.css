@@ -1,11 +1,14 @@
 * {
-  background-color: black;
+  background-color: rgba(122, 127, 86, 0.824);
   color: white;
   box-sizing: border-box;
-  margin: 8px;
+  margin: 0px;
+  padding: 0px;
+  border: 1px dotted;
+  border-color: red;
 }
 
-nav{
+nav {
   position: sticky;
   top: 0px;
   z-index: 2px;
@@ -31,27 +34,36 @@ img {
 }
 
 .main {
-  background-color: black;
+ 
   color: white;
   text-align: center;
   margin: 8px;
 }
 
 .secondary {
-  background-color: black;
+  
   color: white;
   text-align: center;
 }
 
 ul {
   display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-    align-items: center;
-    width: 600px;
-    min-width: 320px;
-    list-style: none;
-    border-bottom: 4px solid rgb(227, 90, 0);
 }
+
+.reclist {
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.navlist {
+  flex-direction: row;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 600px;
+  min-width: 320px;
+  list-style: none;
+  border-bottom: 4px solid rgb(227, 90, 0);
+}
+
 /* adding my first comment to this css file */
