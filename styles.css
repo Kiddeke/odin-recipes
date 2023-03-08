@@ -9,23 +9,51 @@
 }
 
 nav {
+  display: flex;
+}
+
+.wholepage {
+  background-color: rgb(255, 249, 239);
+}
+
+.topnav {
   position: sticky;
   top: 0px;
-  z-index: 2px;
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
   margin: 50px 30px;
   padding: 20px 0px;
   border-bottom: 2px solid rgb(227, 90, 0);
   background-color: rgb(255, 249, 239);
-  border-radius: 10px 10px 0px 0px;
-  box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 0px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 8px 16px 0px;
 }
 
-p {
-  margin-bottom: 12px;
-  margin-top: 12px;
+.contentdiv {
+  background-color: rgb(255, 249, 239);
+}
+.name {
+  flex-flow: column;
+  background-color: rgb(255, 249, 239);
+  color: black;
+}
+
+.title {
+  flex-flow: row;
+  background-color: rgb(255, 249, 239);
+  color: black;
+}
+
+.navlist {
+  flex-flow: column;
+  background-color: rgb(255, 249, 239);
+  color: black;
+}
+.navlist li a { 
+  flex-flow: column;
+  background-color: rgb(255, 249, 239);
+  color: black;
+ 
 }
 
 img {
@@ -34,16 +62,16 @@ img {
 }
 
 .main {
- 
   color: white;
   text-align: center;
   margin: 8px;
 }
 
 .secondary {
-  
   color: white;
   text-align: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 ul {
