@@ -44,9 +44,6 @@ nav {
   gap: 16px;
 }
 
-.contentdiv {
- 
-}
 .name {
   flex-flow: row;
   background-color: rgb(255, 249, 239);
