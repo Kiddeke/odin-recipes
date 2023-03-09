@@ -8,7 +8,7 @@ html {
   border-color: red;
   font-family: Helvetica, Helvetica, Arial, sans-serif;
   tab-size: 4;
-  text-size-adjust: 100%;
+  text-size-adjust: 120%;
   font-feature-settings: normal;
   scroll-behavior: smooth;
 }
@@ -38,9 +38,7 @@ div #chicken img {
   height: auto;
 }
 
-#chickenscroll, #steakscroll, #tacos {
-  padding: 79px;
-}
+
 
 #chicken, #tacos, #steak {
   border-top: 4px solid rgb(227, 90, 0);
@@ -77,6 +75,12 @@ div #chicken img {
   align-items: flex-end;
   flex-wrap: wrap;
   gap: 16px;
+  font-size: 120%;
+}
+
+/* combine scoll padding with topnav padding for scoll sync*/
+#chickenscroll, #steakscroll, #tacosscroll {
+  padding: 79px;
 }
 
 .contentdiv {
@@ -114,9 +118,7 @@ div #chicken img {
 
 }
 
-img {
-  
-}
+
 
 .main {
   color: black;
