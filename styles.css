@@ -10,6 +10,7 @@ html {
   tab-size: 4;
   text-size-adjust: 100%;
   font-feature-settings: normal;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -78,6 +79,7 @@ img {
   color: rgb(255, 249, 239);
   text-align: center;
   margin: 8px;
+  margin-top: 8px;
 }
 
 div .secondary {
