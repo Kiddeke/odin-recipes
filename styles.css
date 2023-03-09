@@ -38,8 +38,8 @@ div #chicken img {
   height: auto;
 }
 
-#chickenscroll, #steakscroll, #tacosscroll {
-  padding: 95px;
+#chickenscroll, #steakscroll, #tacos {
+  padding: 79px;
 }
 
 #chicken, #tacos, #steak {
@@ -98,22 +98,24 @@ div #chicken img {
   color: black;
 }
 
-.navlist {
-  flex-flow: column;
+.navlist{
+ 
   background-color: rgb(255, 249, 239);
   color: black;
+  flex-basis: 100%;
+  height: 0;
 }
 
 .navlist li a {
-  flex-flow: column;
+  
   background-color: rgb(255, 249, 239);
   display: inline-block;
   color: black;
+
 }
 
 img {
-  height: 700px;
-  width: auto;
+  
 }
 
 .main {
