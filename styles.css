@@ -13,10 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-nav {
-  display: flex;
-}
-
 div #steak img {
   display: block;
   margin-left: auto;
@@ -38,9 +34,9 @@ div #chicken img {
   height: auto;
 }
 
-
-
-#chicken, #tacos, #steak {
+#chicken,
+#tacos,
+#steak {
   border-top: 4px solid rgb(227, 90, 0);
 }
 
@@ -86,15 +82,16 @@ div #chicken img {
   color: black;
 }
 
-.navlist{
+.navlist {
   background-color: rgb(255, 249, 239);
   color: black;
   height: 0;
-  
 }
 
 /* combine scoll padding with topnav padding for scoll sync*/
-#chickenscroll, #steakscroll, #tacosscroll {
+#chickenscroll,
+#steakscroll,
+#tacosscroll {
   padding: 79px;
 }
 
@@ -106,17 +103,12 @@ div #chicken img {
   padding: 10px;
 }
 
-
 .navlist li a {
-  
   background-color: rgb(255, 249, 239);
   display: inline-block;
   color: black;
   text-decoration: none;
-
 }
-
-
 
 .main {
   color: black;
@@ -162,6 +154,7 @@ ul {
 .navlist li a:hover {
   border-bottom: 4px solid rgb(227, 90, 0);
   margin-bottom: -4px;
+ text-shadow: 1px 1px 0px black;
 }
 
 /* adding my first comment to this css file */
