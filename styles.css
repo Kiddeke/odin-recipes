@@ -11,6 +11,8 @@ html {
   text-size-adjust: 120%;
   font-feature-settings: normal;
   scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
 }
 
 div #steak img {
